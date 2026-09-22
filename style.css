@@ -22,6 +22,7 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border-radius: 16px;
 }
 
 h1{
@@ -34,10 +35,28 @@ button {
     border: none;
     border-radius: 15px;
     padding: 15px;
+    margin: 8px;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.texto-resultado {
+    line-height: 1.6;
+}
+
+.botao-jogar-novamente {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    font-weight: bold;
 }
